@@ -17,10 +17,10 @@ namespace XeroNetStandardApp.Controllers
   public class OrganisationInfo : Controller
   {
 
-    private readonly ILogger<AuthorizationController> _logger;
+    private readonly ILogger<OrganisationInfo> _logger;
     private readonly IOptions<XeroConfiguration> XeroConfig;
 
-    public OrganisationInfo(IOptions<XeroConfiguration> XeroConfig, ILogger<AuthorizationController> logger)
+    public OrganisationInfo(IOptions<XeroConfiguration> XeroConfig, ILogger<OrganisationInfo> logger)
     {
       _logger = logger;
       this.XeroConfig = XeroConfig;
